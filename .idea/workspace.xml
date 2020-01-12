@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a58b251-431e-4396-b73f-377a32970b6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="6a58b251-431e-4396-b73f-377a32970b6e" name="Default Changelist" comment="Adding .gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/District.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/FileLoaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/gdanskdemographics/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/gdanskdemographics/Application.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,19 +107,31 @@
       <option name="project" value="LOCAL" />
       <updated>1578826777836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding .gitignore">
+      <created>1578827997296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578827997296</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add data" />
+    <MESSAGE value="Adding .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding .gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="113" key="CommitChangelistDialog2" timestamp="1578826777119">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1578830226592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="580" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578826777119" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578830226592" />
+    <state x="405" y="145" width="1218" height="877" key="CommitChangelistDialog2" timestamp="1578837979831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="405" y="145" width="1218" height="877" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979831" />
     <state x="806" y="412" key="Github.ShareDialog" timestamp="1578826465963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -125,13 +140,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="697" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578826480423" />
-    <state x="461" y="161" key="SettingsEditor" timestamp="1578827086879">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1578837979858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578827086879" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578826787099">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979858" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1578837979858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578826787099" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979858" />
+    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1578837979858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979858" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1578837979858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979858" />
+    <state width="1877" height="221" key="GridCell.Tab.1.bottom" timestamp="1578837979859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979859" />
+    <state width="1877" height="221" key="GridCell.Tab.1.center" timestamp="1578837979859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979859" />
+    <state width="1877" height="221" key="GridCell.Tab.1.left" timestamp="1578837979859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979859" />
+    <state width="1877" height="221" key="GridCell.Tab.1.right" timestamp="1578837979859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="221" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578837979859" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1578832539611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578832539611" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578837988559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578837988559" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578835513068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578835513068" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/Application.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="districts" />
+        <watch expression="districts" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
